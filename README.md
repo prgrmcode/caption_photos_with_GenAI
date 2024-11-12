@@ -66,6 +66,91 @@ By integrating this process, the agency not only expedites its publication proce
 
 ## Let's implement automated image captioning tool
 
-We implement an automated image captioning program that works directly from a URL. The user provides the URL, and the code generates captions for the images found on the webpage. The output is a text file that includes all the image URLs along with their respective captions (like the image below). To accomplish this, you use BeautifulSoup for parsing the HTML content of the page and extracting the image URLs.
+We implement an automated image captioning program that works directly from a URL. The user provides the URL, and the code generates captions for the images found on the webpage. The output is a text file that includes all the image URLs along with their respective captions (like the image below). 
 
-![image urls](image.png)
+### **Project Description for GitHub Repository**
+
+---
+
+# **Automated URL Captioner**
+
+## **Overview**
+
+The **Automated URL Captioner** is a Python-based application designed to automatically generate descriptive captions for images extracted from a given website URL. Leveraging state-of-the-art machine learning models, this project provides an interactive web interface using Gradio, making it easy for users to input a URL, generate captions, and save the results.
+
+## **Features**
+
+- **Image Extraction:** Automatically extracts image URLs from the provided website URL.
+- **Caption Generation:** Utilizes the `Salesforce/blip-image-captioning-large` model to generate descriptive captions for each image.
+- **Interactive Interface:** Provides a user-friendly interface using Gradio for easy interaction.
+- **Progress Bar:** Displays a progress bar to indicate the status of caption generation.
+- **Save Captions:** Allows users to save the generated captions to a text file.
+- **Clear Interface:** Includes a "Clear" button to reset the interface and clear all data.
+
+## **Technologies Used**
+
+- **Python:** Core programming language.
+- **Gradio:** For creating the interactive web interface.
+- **Transformers:** For loading and using the pre-trained image captioning model.
+- **Pillow:** For image processing.
+- **Requests:** For handling HTTP requests.
+- **BeautifulSoup:** For parsing HTML and extracting image URLs.
+
+## **Installation**
+
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository_url>
+   cd <repository_name>
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Application:**
+   ```bash
+   python automated_url_captioner.py
+   ```
+
+## **Usage**
+
+1. **Enter Website URL:**
+   - Input the URL of the website containing images you wish to caption.
+
+2. **Generate Captions:**
+   - Click the "Generate Captions" button to start the process. A progress bar will display the processing status.
+
+3. **Review and Edit Captions:**
+   - Once processing is complete, images and their captions will be displayed. You can modify the captions as needed.
+
+4. **Save Captions:**
+   - Click the "Save Captions" button to save the modified captions to a text file named 
+
+captions.txt
+
+.
+
+5. **Clear Interface:**
+   - Click the "Clear" button to reset the interface and clear all data.
+
+## **Contributing**
+
+Contributions are welcome! Please feel free to submit a Pull Request or open an Issue to improve the project.
+
+## **License**
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## **Acknowledgements**
+
+- **Gradio:** For providing an easy-to-use interface for machine learning applications.
+- **Transformers:** For the powerful pre-trained models.
+- **Pillow:** For image processing capabilities.
+- **Requests:** For handling HTTP requests.
+- **BeautifulSoup:** For parsing HTML and extracting image URLs.
+
+---
+
+Feel free to customize this description further to fit your specific needs and preferences. This description provides a comprehensive overview of the project, its features, technologies used, installation instructions, usage guide, contribution guidelines, license information, and acknowledgements.
