@@ -4,6 +4,29 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore Gradio cache and temporary files
+.gradio/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore app results
+results/
+
+# Ignore generated captions files
+captions_advanced.txt
+captions_corrected.txt
+captions_folder.csv
+captions_folder.txt
+captions.csv
+captions.txt
+captions1.txt
+captionsold.txt
+folder_captions.csv
+
+# Ignore images folder
+images_folder/
+
 # C extensions
 *.so
 
