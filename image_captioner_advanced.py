@@ -148,6 +148,7 @@ def setup_gradio_interface():
 
             generate_status = gr.Markdown("")  # Status for generating captions
             save_status = gr.Markdown("")  # Status for saving captions
+
             progress_bar = gr.Progress(
                 track_tqdm=True
             )  # Progress bar for captioning process
@@ -250,7 +251,7 @@ def setup_gradio_interface():
                 + url_caption_components
                 + rows
                 + [url_captions],
-                show_progress=True,
+                show_progress="full",
             )
 
             url_save_path = gr.Textbox(
