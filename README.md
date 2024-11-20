@@ -71,18 +71,18 @@ By integrating this automated image captioning tool, the news agency is able to 
 ### Step-by-Step Guide
 1. **Enter Website URL:**
    - Input the URL of the website containing images you wish to caption.
-   - ![URL Captioning Interface](URL-captioning.png)
+   - ![URL Captioning Interface](URL-captioning.PNG)
 
 2. **Generate Captions:**
    - Click the "Generate Captions" button to start the process.
 
 3. **Review and Edit Captions:**
    - Once processing is complete, images and their captions will be displayed. You can modify the captions as needed.
-   - ![Caption Editing](URL-caption-editing.png)
+   - ![Caption Editing](URL-caption-editing.PNG)
 
 4. **Save Captions:**
    - Click the "Save Captions" button to save the modified captions to a text file.
-   - ![Save Captions](URL-caption-saving.png)
+   - ![Save Captions](URL-caption-saving.PNG)
 
 5. **Clear Interface:**
    - Click the "Clear" button to reset the interface and clear all data.
@@ -90,10 +90,10 @@ By integrating this automated image captioning tool, the news agency is able to 
 ## Visuals
 
 ### URL Captioning Interface
-![URL Captioning Interface](URL-captioning.png)
+![URL Captioning Interface](URL-captioning.PNG)
 
 ### Folder Captioning Interface
-![Folder Captioning Interface](Folder-captioning.png)
+![Folder Captioning Interface](Folder-captioning.PNG)
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue to improve the project.
