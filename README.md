@@ -95,6 +95,8 @@ By integrating this automated image captioning tool, the news agency is able to 
 ### Folder Captioning Interface
 ![Folder Captioning Interface](Folder-captioning.PNG)
 
+![interface demo](advanced_image_captioner_final.gif)
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue to improve the project.
 
